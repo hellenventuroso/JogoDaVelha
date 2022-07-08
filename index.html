@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body x-data>
+
+    <div class="bg-gray-500 p-10 m-2">
+        <div class="flex bg-gray-300">
+            <div class="flex-1 border-solid border-2 border-gray-700 
+            text-center hover:bg-red-500 hover:text-white hover:border-blue-700 p-10 text-2xl">
+               <span x-text="estruturaReativa.p0" id="p0">P0</span>
+            </div>
+            <div class="flex-1 border-solid border-2 border-gray-700 
+            text-center hover:bg-red-500 hover:text-white hover:border-blue-700 p-10 text-2xl">
+            <span id="p1">P1</span>
+            </div>
+            <div class="flex-1 border-solid border-2 border-gray-700 
+            text-center hover:bg-red-500 hover:text-white hover:border-blue-700 p-10 text-2xl">
+                <span id="p2">P2</span>
+            </div>
+        </div>
+        <div class="flex bg-gray-300">
+            <div class="flex-1 border-solid border-2 border-gray-700 
+            text-center hover:bg-red-500 hover:text-white hover:border-blue-700 p-10 text-2xl">
+                <span id="p3">P3</span>
+            </div>
+            <div class="flex-1 border-solid border-2 border-gray-700 
+            text-center hover:bg-red-500 hover:text-white hover:border-blue-700 p-10 text-2xl">
+                <span id="p4">P4</span>
+            </div>
+            <div class="flex-1 border-solid border-2 border-gray-700 
+            text-center hover:bg-red-500 hover:text-white hover:border-blue-700 p-10 text-2xl">
+                <span id="p5">P5</span>
+            </div>
+        </div>
+        <div class="flex bg-gray-300">
+            <div class="flex-1 border-solid border-2 border-gray-700 
+            text-center hover:bg-red-500 hover:text-white hover:border-blue-700 p-10 text-2xl">
+                <span id="p6">P6</span>
+            </div>
+            <div class="flex-1 border-solid border-2 border-gray-700 
+            text-center hover:bg-red-500 hover:text-white hover:border-blue-700 p-10 text-2xl">
+                <span id="p7">P7</span>
+            </div>
+            <div class="flex-1 border-solid border-2 border-gray-700 
+            text-center hover:bg-red-500 hover:text-white hover:border-blue-700 p-10 text-2xl">
+                <span id="p8">P8</span>
+            </div>
+        </div>              
+    </div>
+
+
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</body>
+
+</html>
